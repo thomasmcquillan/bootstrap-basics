@@ -12,6 +12,16 @@ h2 {
     margin: 15px;
 }
 
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -170,10 +180,47 @@ h2 {
     padding: 0;
 }
 
+.monthly-favorites h2 {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
 .col-12 {
     padding: 25px;
 }
 
 table {
     padding-bottom: 20px;
+}
+
+th {
+    color: #f05f40; 
+}
+
+.container-wrapper {}
+
+.container-wrapper--contrast {
+    color: rgb(36, 25, 1);
+    background-color: lightgrey;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
